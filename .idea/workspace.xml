@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b2078eb-8ddc-427e-adee-b5e20e635e06" name="Default Changelist" comment="" />
+    <list default="true" id="3b2078eb-8ddc-427e-adee-b5e20e635e06" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Friendships.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RomanNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Silnia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FriendshipsTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RomanNumbersTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SilniaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -12,43 +21,48 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/tdd$Calculator.ic" NAME="Calculator Coverage Results" MODIFIED="1543061767480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/tdd$SilniaTest.ic" NAME="SilniaTest Coverage Results" MODIFIED="1543136887342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/tdd$FizzBuzzTest.ic" NAME="FizzBuzzTest Coverage Results" MODIFIED="1543061977321" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="CoverageViewManager">
-    <option name="myElementSize" value="224" />
+    <option name="myElementSize" value="227" />
   </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-2117557874">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="2214" />
+          <entry key="dummy" value="2" />
+          <entry key="java" value="5628" />
           <entry key="xml" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="2214" />
+          <entry key="JAVA" value="5628" />
+          <entry key="PLAIN_TEXT" value="2" />
           <entry key="XML" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="2" />
-          <entry key="java" value="12" />
+          <entry key="java" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="2" />
-          <entry key="JAVA" value="12" />
+          <entry key="JAVA" value="19" />
         </counts>
       </usages-collector>
     </session>
@@ -56,28 +70,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Silnia.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+            <state relative-caret-position="85">
+              <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SilniaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+            <state relative-caret-position="425">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,76 +91,45 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Validator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="25" selection-start-line="4" selection-start-column="25" selection-end-line="4" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ValidatorTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Friendships.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
-              <caret line="7" selection-start-line="7" selection-end-line="7" />
+              <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/FriendshipsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#305#306#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumbers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="31" column="36" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Pesel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="68" column="92" lean-forward="true" selection-start-line="68" selection-start-column="92" selection-end-line="68" selection-end-column="92" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/PeselTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1545">
-              <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="986">
+              <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/KolkoIKrzyzyk.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumbersTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+            <state relative-caret-position="321">
+              <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -165,10 +139,13 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -183,6 +160,14 @@
         <option value="$PROJECT_DIR$/src/main/java/Pesel.java" />
         <option value="$PROJECT_DIR$/src/test/java/PeselTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/KolkoIKrzyzyk.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SilniaTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Silnia.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FriendShips.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FriendShipsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Friendships.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FriendshipsTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RomanNumbers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/RomanNumbersTest.java" />
       </list>
     </option>
   </component>
@@ -203,8 +188,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,9 +235,10 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543070395842" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1543157343882" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -275,71 +261,67 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.PeselTest.shouldReturnWomanIf9ElementIsDivideByZero">
-    <configuration name="PeselTest.shouldReturn10062191IfPeselStartsWith914610" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.RomanNumbersTest">
+    <configuration name="FriendshipsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeselTest" />
-      <option name="METHOD_NAME" value="shouldReturn10062191IfPeselStartsWith914610" />
+      <option name="MAIN_CLASS_NAME" value="FriendshipsTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FriendshipsTest.shouldReturnEmptyListWithFriends" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FriendshipsTest" />
+      <option name="METHOD_NAME" value="shouldReturnEmptyListWithFriends" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeselTest.shouldReturn10062291IfPeselStartsWith914610" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumbersTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeselTest" />
-      <option name="METHOD_NAME" value="shouldReturn10062291IfPeselStartsWith914610" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumbersTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RomanNumbersTest.shouldReturnArabicValueForSingleRomanNumberMain" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="tdd" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumbersTest" />
+      <option name="METHOD_NAME" value="shouldReturnArabicValueForSingleRomanNumberMain" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PeselTest.shouldReturn10062291IfPeselStartsWith916610" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="tdd" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeselTest" />
-      <option name="METHOD_NAME" value="shouldReturn10062291IfPeselStartsWith916610" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeselTest.shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeselTest" />
-      <option name="METHOD_NAME" value="shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3(java.lang.String)" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PeselTest.shouldReturnWomanIf9ElementIsDivideByZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="tdd" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PeselTest" />
-      <option name="METHOD_NAME" value="shouldReturnWomanIf9ElementIsDivideByZero" />
+      <option name="MAIN_CLASS_NAME" value="RomanNumbersTest" />
+      <option name="METHOD_NAME" value="shouldReturnArabicValueForSortedRomanNumber" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.PeselTest.shouldReturn10062191IfPeselStartsWith914610" />
-      <item itemvalue="JUnit.PeselTest.shouldReturn10062291IfPeselStartsWith914610" />
-      <item itemvalue="JUnit.PeselTest.shouldReturn10062291IfPeselStartsWith916610" />
-      <item itemvalue="JUnit.PeselTest.shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3" />
-      <item itemvalue="JUnit.PeselTest.shouldReturnWomanIf9ElementIsDivideByZero" />
+      <item itemvalue="JUnit.RomanNumbersTest" />
+      <item itemvalue="JUnit.RomanNumbersTest.shouldReturnArabicValueForSingleRomanNumberMain" />
+      <item itemvalue="JUnit.RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" />
+      <item itemvalue="JUnit.FriendshipsTest" />
+      <item itemvalue="JUnit.FriendshipsTest.shouldReturnEmptyListWithFriends" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.PeselTest.shouldReturnWomanIf9ElementIsDivideByZero" />
-        <item itemvalue="JUnit.PeselTest.shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3" />
-        <item itemvalue="JUnit.PeselTest.shouldReturn10062291IfPeselStartsWith916610" />
-        <item itemvalue="JUnit.PeselTest.shouldReturn10062291IfPeselStartsWith914610" />
-        <item itemvalue="JUnit.PeselTest.shouldReturn10062191IfPeselStartsWith914610" />
+        <item itemvalue="JUnit.RomanNumbersTest" />
+        <item itemvalue="JUnit.RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" />
+        <item itemvalue="JUnit.FriendshipsTest" />
+        <item itemvalue="JUnit.FriendshipsTest.shouldReturnEmptyListWithFriends" />
+        <item itemvalue="JUnit.RomanNumbersTest.shouldReturnArabicValueForSingleRomanNumberMain" />
       </list>
     </recent_temporary>
   </component>
@@ -357,41 +339,42 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PeselTest_shouldReturn10061991IfPeselStartsWith910610 - 2018.11.24 at 15h 16m 31s.xml">
-      <configuration name="PeselTest.shouldReturn10061991IfPeselStartsWith910610" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 46m 26s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10061891IfPeselStartsWith918610 - 2018.11.24 at 15h 19m 02s.xml">
-      <configuration name="PeselTest.shouldReturn10061891IfPeselStartsWith918610" configurationId="JUnit" />
+    <history-entry file="FriendshipsTest - 2018.11.25 at 14h 50m 34s.xml">
+      <configuration name="FriendshipsTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10061891IfPeselStartsWith918610 - 2018.11.24 at 15h 19m 27s.xml">
-      <configuration name="PeselTest.shouldReturn10061891IfPeselStartsWith918610" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest_shouldReturnArabicValueForSortedRomanNumber - 2018.11.25 at 15h 05m 32s.xml">
+      <configuration name="RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10062091IfPeselStartsWith912610 - 2018.11.24 at 15h 20m 30s.xml">
-      <configuration name="PeselTest.shouldReturn10062091IfPeselStartsWith912610" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest - 2018.11.25 at 15h 05m 52s.xml">
+      <configuration name="RomanNumbersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10062191IfPeselStartsWith914610 - 2018.11.24 at 15h 21m 02s.xml">
-      <configuration name="PeselTest.shouldReturn10062191IfPeselStartsWith914610" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest_shouldReturnArabicValueForSortedRomanNumber - 2018.11.25 at 15h 20m 11s.xml">
+      <configuration name="RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10062291IfPeselStartsWith914610 - 2018.11.24 at 15h 21m 29s.xml">
-      <configuration name="PeselTest.shouldReturn10062291IfPeselStartsWith914610" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest - 2018.11.25 at 15h 31m 59s.xml">
+      <configuration name="RomanNumbersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturn10062291IfPeselStartsWith916610 - 2018.11.24 at 15h 21m 54s.xml">
-      <configuration name="PeselTest.shouldReturn10062291IfPeselStartsWith916610" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest - 2018.11.25 at 15h 34m 49s.xml">
+      <configuration name="RomanNumbersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3 - 2018.11.24 at 15h 22m 53s.xml">
-      <configuration name="PeselTest.shouldReturnFalseIfPeselLengthIsGreaterOrShorterThan11V3" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest - 2018.11.25 at 15h 35m 07s.xml">
+      <configuration name="RomanNumbersTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturnWomanIf9ElementIsDivideByZero - 2018.11.24 at 15h 33m 01s.xml">
-      <configuration name="PeselTest.shouldReturnWomanIf9ElementIsDivideByZero" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest_shouldReturnArabicValueForSortedRomanNumber - 2018.11.25 at 15h 36m 15s.xml">
+      <configuration name="RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="PeselTest_shouldReturnWomanIf9ElementIsDivideByZero - 2018.11.24 at 15h 33m 46s.xml">
-      <configuration name="PeselTest.shouldReturnWomanIf9ElementIsDivideByZero" configurationId="JUnit" />
+    <history-entry file="RomanNumbersTest_shouldReturnArabicValueForSortedRomanNumber - 2018.11.25 at 15h 39m 44s.xml">
+      <configuration name="RomanNumbersTest.shouldReturnArabicValueForSortedRomanNumber" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25302014" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25973153" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -400,8 +383,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3286119" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -439,10 +422,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.3.1/junit-jupiter-params-5.3.1.jar!/org/junit/jupiter/params/provider/ValueSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="68" selection-start-line="8" selection-start-column="68" selection-end-line="8" selection-end-column="68" />
+        <state relative-caret-position="270">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -463,34 +453,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/KolkoIKrzyzyk.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="21" selection-start-line="35" selection-start-column="21" selection-end-line="35" selection-end-column="21" />
+        <state relative-caret-position="85">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ValidatorTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/junit/jupiter/junit-jupiter-params/5.3.1/junit-jupiter-params-5.3.1.jar!/org/junit/jupiter/params/provider/ValueSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="31" column="36" lean-forward="true" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="238">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -499,8 +479,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/FizzBuzz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
+        <state relative-caret-position="85">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FizzBuzzTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="31" column="36" selection-start-line="30" selection-start-column="4" selection-end-line="31" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -509,25 +499,78 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Pesel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="68" column="92" lean-forward="true" selection-start-line="68" selection-start-column="92" selection-end-line="68" selection-end-column="92" />
+        <state relative-caret-position="389">
+          <caret line="68" column="92" selection-start-line="68" selection-start-column="92" selection-end-line="68" selection-end-column="92" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/PeselTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1545">
-          <caret line="136" column="1" lean-forward="true" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
+        <state relative-caret-position="1029">
+          <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/KolkoIKrzyzyk.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Silnia.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="20" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+        <state relative-caret-position="85">
+          <caret line="5" column="46" selection-start-line="5" selection-start-column="46" selection-end-line="5" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SilniaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Friendships.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="45" selection-start-line="7" selection-start-column="45" selection-end-line="7" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="283" column="12" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/FriendshipsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="32" column="6" selection-start-line="32" selection-start-column="6" selection-end-line="32" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#305#306#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RomanNumbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="61" column="9" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RomanNumbersTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="43" column="24" selection-start-line="43" selection-start-column="24" selection-end-line="43" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
