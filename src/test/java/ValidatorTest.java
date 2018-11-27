@@ -16,7 +16,7 @@ class ValidatorTest {
     }
 
     @Test
-    public void shouldReturnTrueIfAgeIs17() {
+    public void shouldReturnFalseIfAgeIs17() {
         //given
         Validator validator = new Validator();
         //when

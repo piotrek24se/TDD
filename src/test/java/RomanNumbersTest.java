@@ -44,4 +44,14 @@ class RomanNumbersTest {
         assertEquals("1520", result);
     }
 
+    @Test
+    public void shouldReturnArabicValueForUnsortedRomanNumber() {
+        //given
+        RomanNumbers romanNumbers = new RomanNumbers();
+        //when
+        String result = romanNumbers.convertRomanNumberToArabicNumber("MCMXCV");
+        //then
+        assertEquals("1995", result);
+    }
+
 }

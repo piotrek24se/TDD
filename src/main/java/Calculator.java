@@ -6,7 +6,6 @@ public class Calculator {
         BigDecimal firstNumber = new BigDecimal(first);
         BigDecimal secondNumber = new BigDecimal(second);
 
-        // na zajeciach zmieniono zaokraglanie (porownac z git/slack)
         return firstNumber.add(secondNumber).toPlainString();
     }
 

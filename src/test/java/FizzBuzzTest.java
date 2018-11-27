@@ -51,7 +51,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    public void shouldReturnBuzzFive2() {
+    public void shouldReturn2IfNumberIs2() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         //when
@@ -61,7 +61,7 @@ class FizzBuzzTest {
     }
 
     @Test
-    public void shouldReturn12FizzIfNumberIs3() {
+    public void shouldReturnChainIfNumberIs16() {
         //given
         FizzBuzz fizzBuzz = new FizzBuzz();
         //when

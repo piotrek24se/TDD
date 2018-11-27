@@ -31,7 +31,7 @@ public class RomanNumbers {
         String five = "V";
         String ten = "X";
         String fifty = "L";
-        String hunred = "C";
+        String hundred = "C";
         String fiveHundred = "D";
         String thousand = "M";
 
@@ -40,7 +40,7 @@ public class RomanNumbers {
                     && !arrayOfNumbers[i].equals(five)
                     && !arrayOfNumbers[i].equals(ten)
                     && !arrayOfNumbers[i].equals(fifty)
-                    && !arrayOfNumbers[i].equals(hunred)
+                    && !arrayOfNumbers[i].equals(hundred)
                     && !arrayOfNumbers[i].equals(fiveHundred)
                     && !arrayOfNumbers[i].equals(thousand))
                 return "0";
@@ -52,11 +52,15 @@ public class RomanNumbers {
             int result = 0;
             for (int i = 1; i < arrayOfNumbers.length; i++) {
                 if (valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i]) <= valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i - 1])) {
-                    result = result + valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i]) + valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i - 1]);
-                    i++;
+                    result = result + valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i - 1]);
 
-                } else
-                    return "2";
+                } else {
+                    result = result + (valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i]) - valuesOfUniqueRomanNumbers.get(arrayOfNumbers[i - 1]));
+                    i++;
+                }
+            }
+            if (valuesOfUniqueRomanNumbers.get(arrayOfNumbers[arrayOfNumbers.length - 1]) <= valuesOfUniqueRomanNumbers.get(arrayOfNumbers[arrayOfNumbers.length - 2])) {
+                result = result + valuesOfUniqueRomanNumbers.get(arrayOfNumbers[arrayOfNumbers.length - 1]);
             }
             return String.valueOf(result);
         }
@@ -83,43 +87,5 @@ public class RomanNumbers {
                 return "Wprowadz cyfre rzymska";
         }
     }
-
-//    private String convertSortedRomanNumberToArabicNumberV3 ()
-
-//    private String convertSortedRomanNumberToArabicNumber(String firstNumber, String secondNumber) {
-//        int result = 0;
-//        if (Integer.valueOf(secondNumber) <= Integer.valueOf(firstNumber)) {
-//            result = Integer.valueOf(secondNumber) + Integer.valueOf(secondNumber);
-//        }
-//        return String.valueOf(result);
-//    }
-
-//    private String convertSortedRomanNumberToArabicNumberV2(String[] arrayOfNumbers, String romanNumber) {
-//
-//        int result = 0;
-//
-//        //for (int i = 0; i < arrayOfNumbers.length; i++) {
-//            if (romanNumber.equals("M")) {
-//                result = result + 1000;
-//            } else if (romanNumber.equals("D")) {
-//                result = result + 500;
-//            } else if (romanNumber.equals("C")) {
-//                result = result + 100;
-//            } else if (romanNumber.equals("L")) {
-//                result = result + 50;
-//            } else if (romanNumber.equals("X")) {
-//                result = result + 10;
-//            } else if (romanNumber.equals("V")) {
-//                result = result + 5;
-//            } else if (romanNumber.equals("I")) {
-//                result = result + 1;
-//            }
-//        //}
-//
-//        String resultNumber = String.valueOf(result);
-//        return resultNumber;
-//
-//    }
-
 
 }
