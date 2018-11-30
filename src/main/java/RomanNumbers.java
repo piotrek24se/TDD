@@ -8,8 +8,7 @@ public class RomanNumbers {
     // Jako użytkownik mogę przekonwertować liczbę rzymską, ale z cyframi ułożonymi w kolejności nie rosnącej(np. II, VV, LX, MC, itd.)
     // Jako użytkownik mogę przekonwertować liczbę rzymską z dowolnie ułożonymi cyframi.
 
-
-    //niedokonczone rozwiazanie (rozwiazanie z zajec - GIT)
+    //moje rozwiazanie
 
     public String convertRomanNumberToArabicNumber(String romanNumber) {
         if (romanNumber.equals(""))
